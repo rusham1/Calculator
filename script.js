@@ -21,7 +21,7 @@ function calculate() {
             return;
         }
 
-        numberToCal.value = result;
+        numberToCal.value = result.toFixed(6);
     }
     catch (error) {
         numberToCal.value = 'Error';
